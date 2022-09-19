@@ -3,7 +3,7 @@ import re
 def display_hash(hashtable) -> None:
 	# Write your code here
 	for keyvalue in range(len(hashtable)):
-		content=hastable[keyvalue]
+		content=hashtable[keyvalue]
 		print(keyvalue,end=" ")
 		for element in content:
 			print("-->",element,end=" ")
